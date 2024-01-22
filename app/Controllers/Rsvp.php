@@ -71,7 +71,7 @@ class Rsvp extends ResourceController
             return $this->fail($response, 409);
         }
 
-        return $this->respond(['message'=>'Created successfully.'], 201);
+        return $this->respond(['message' => 'Created successfully.'], 201);
     }
 
     /**
